@@ -120,6 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.end,
+        mainAxisSize: MainAxisSize.min,
         children: [
           FloatingActionButton(
             onPressed: _decrementCounter,
